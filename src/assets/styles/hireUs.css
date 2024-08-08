@@ -1,0 +1,55 @@
+.hire{
+    display: flex;
+    margin-top: 80px;
+
+    gap: 80px;
+
+    .hireLeft{
+        h1{
+            font-size: 3.7rem;
+            margin-bottom: 10px;
+        }
+        .hireTop{
+            margin-bottom: 30px;
+        }
+
+        .formLeb{
+            font-size: .8rem;
+            padding: 8px;
+            font-weight: 600;
+        }
+
+        .hireForm{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            gap: 10px;
+
+            textarea{
+                height: 200px;
+            }
+            .formGroup{
+
+                display: flex;
+                gap: 10px;
+                .formBox{
+                    width: 100%;
+                }
+            }
+
+            .formAction{
+                display: flex;
+                    gap: 20px;
+                    button{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .hireRight{
+            background: white;
+            width: 100%;
+            border-radius:20px;
+    }
+}

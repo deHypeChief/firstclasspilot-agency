@@ -1,0 +1,131 @@
+.about {
+    margin-top: 120px;
+
+    .topAboutContent {
+        p {
+            padding: 20px 0 0px;
+            width: 500px;
+        }
+    }
+
+    .aboutSlide {
+        background: red;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 70px;
+        position: relative;
+        
+        .slideList {
+            .boxSlideAbout {
+                height: 18vh;
+                width: 100%;
+                background: white;
+            }
+        }
+
+        .slideControl{
+            position: absolute;
+            width: 100%;
+            gap: 30px;
+            top: 0;
+            display: flex;
+            padding: 40px 100px 0;
+            gap: 40px;
+
+            .slideLine{
+                flex: 1;
+                
+                height: 10px;
+                background: blue;
+                border-radius: 100px;
+            }
+        }
+    }
+}
+
+.aboutBox{
+    display: flex;
+    gap: 70px;
+    margin-top: 80px;
+
+    .aboutBoxLeft{
+        width: 600px;
+
+        h4{
+            padding-bottom: 20px;
+        }
+        h2{
+            padding-bottom: 20px;
+        }
+        p{
+            padding-top: 10px;
+        }
+    }
+    .aboutBoxRight{
+        margin-top: 40px;
+        width: 500px;
+        height: 100vh;
+        background: white;
+        flex: 1;
+    }
+}
+
+
+.MandV{
+    margin-top: 100px;
+    display: flex;
+    gap: 80px;
+
+    h4{
+        padding-bottom: 30px;
+    }
+    h2{
+        text-transform: initial;
+    }
+}
+
+
+.team{
+    margin-top: 150px;
+
+    .teamTop{
+        h4{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+    .teamGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 60px;
+        padding: 100px 0px 30px;
+        .teamBox{
+            display: flex;
+         align-items: center;
+         flex-direction: column;
+            .teamImg{
+                height: 500px;
+                width: 480px;
+                border-radius: 10px;
+                background: white;
+            }
+            .teamText{
+                .teamHead{
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    padding: 30px 0 8px;
+                }
+                .teamRole{
+                    text-align: center;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px;
+
+    .navLogo{
+        height: 40px;
+        width: 100px;
+        background: gray;
+    }
+
+    .navListWrap{
+        display: flex;
+        background: var(--color-navInner);
+        border: var(--border-content);
+        border-radius: 100px;
+
+
+        li{
+            padding: 10px 20px;
+            margin: 3px;
+            border-radius: 100px;
+
+            a{
+                font-size: 1rem;
+                font-weight: 600;
+                color: white;
+            }
+        }
+        .navActive{
+            background: var(--color-button);
+            a{
+                color: black;
+            }
+        }
+
+    }
+}
